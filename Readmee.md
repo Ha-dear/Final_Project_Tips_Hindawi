@@ -102,7 +102,8 @@ Using **QualifAI Me** is straightforward and follows a simple 3-step workflow:
 
 # 📸 Demo
 
-Add screenshots, GIFs, or a demo video.
+
+https://github.com/user-attachments/assets/93e6a1ef-ce8d-47ac-afb2-bf66be2cde1d
 
 ---
 
