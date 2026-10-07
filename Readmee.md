@@ -43,7 +43,7 @@ By combining structured outputs, dynamic prompt orchestration, and high-performa
 
 ### 🌐 Live Web Application
 You can access and test the live application directly without any local installation:
-👉 **[QualifAI Me Live App](https://finalprojecttipshindawi-g5c8daxj57ya3dewfq4vym.streamlit.app/)** *(استبدلي هذا الرابط برابط تطبيقكِ المباشر)*
+👉 **[QualifAI Me Live App](https://finalprojecttipshindawi-g5c8daxj57ya3dewfq4vym.streamlit.app/)** 
 
 ---
 
@@ -55,7 +55,8 @@ If you prefer to run the project locally, follow these steps:
 ```bash
    git clone [https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git](https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git)
    cd Final_Project_Tips_Hindawi
-   
+
+---
 2. **Create & Activate Virtual Environment:**
     Bash
     python -m venv venv
@@ -72,7 +73,7 @@ If you prefer to run the project locally, follow these steps:
     Bash
     streamlit run app.py
        
----
+
 
 # 🚀 Usage
 
