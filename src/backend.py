@@ -5,7 +5,7 @@ from src.schemas import EvaluationReport, LearningRoadmap
 
 def extract_text_from_pdf(uploaded_file):
     pdf_reader = PdfReader(uploaded_file)
-    return "".join([page.extract_text() for page in pdf_reader.pages if page.extract_text()])
+    return " ".join([page.extract_text() for page in pdf_reader.pages if page.extract_text()])
 def analyze_cv(job_title: str, requirements: str, responsibilities: str, cv_text: str, api_key: str, model_name: str = "qwen/qwen3.8-27b") -> EvaluationReport:
     prompt = ChatPromptTemplate.from_template("""
     You are an expert AI Career Coach and Personal Resume Analyst.
