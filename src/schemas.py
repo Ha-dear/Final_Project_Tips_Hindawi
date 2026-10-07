@@ -1,3 +1,4 @@
+from pydantic import BaseModel, Field
 class EvaluationReport(BaseModel):
     match_score: int = Field(description="Match percentage score from 0 to 100 based strictly on technical match.")
     qualification_status: str = Field(description="Ready to Apply, Partially Ready, or Needs Preparation")
