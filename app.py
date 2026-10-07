@@ -71,7 +71,7 @@ with st.sidebar:
     if nav_choice == "1. Input Form & Upload" and st.session_state["page"] != "input_page":
         set_page("input_page")
         st.rerun()
-    elif nav_choice == "2.Your Report" and st.session_state["page"] != "results_page":
+    elif nav_choice == "2. Your Report" and st.session_state["page"] != "results_page":
         if "analysis_result" in st.session_state:
             set_page("results_page")
             st.rerun()
