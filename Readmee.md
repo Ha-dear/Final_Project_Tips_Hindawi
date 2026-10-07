@@ -55,7 +55,7 @@ If you prefer to run the project locally, follow these steps:
 ```bash
    git clone [https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git]
    cd Final_Project_Tips_Hindawi
-
+```
 ---
 2. **Create & Activate Virtual Environment:**
     Bash
