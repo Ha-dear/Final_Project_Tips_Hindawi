@@ -58,23 +58,22 @@ If you prefer to run the project locally, follow these steps:
 ```
 ---
 2. **Create & Activate Virtual Environment:**
-    Bash
+    ```bash
     python -m venv venv
     # On Windows:
     venv\Scripts\activate
     # On macOS/Linux:
     source venv/bin/activate
-   
+```   
 3. **Install Required Packages:**
-    Bash
+   ```bash
     pip install -r requirements.txt
-
+```
 4. **Run the Streamlit App:**
-    Bash
+    ```bash
     streamlit run app.py
-       
-
-
+       ```
+-----
 # 🚀 Usage
 
 Using **QualifAI Me** is straightforward and follows a simple 3-step workflow:
