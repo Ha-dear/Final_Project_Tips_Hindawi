@@ -53,7 +53,7 @@ If you prefer to run the project locally, follow these steps:
 
 1. **Clone the Repository:**
 ```bash
-   git clone [https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git](https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git)
+   git clone [https://github.com/Ha-dear/Final_Project_Tips_Hindawi.git]
    cd Final_Project_Tips_Hindawi
 
 ---
