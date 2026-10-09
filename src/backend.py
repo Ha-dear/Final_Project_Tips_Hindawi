@@ -65,7 +65,7 @@ def generate_interview_response(job_title: str, job_reqs: str, cv_text: str, cha
     stage_prompt = f"""
 You are a Professional Interviewer conducting a structured interview for the position of {job_title}.
 Job Requirements: {job_reqs}
-Candidate CV Summary: {cv_text[:15000]}
+Candidate CV Summary: {cv_text[:1500]}
 
 STRUCTURED INTERVIEW FLOW INSTRUCTIONS:
 - You must advance the interview structurally and naturally.
